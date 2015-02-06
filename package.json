@@ -1,0 +1,8 @@
+{
+  "name": "ubergrape-jss-utils",
+  "description": "Reusable jss utils",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
