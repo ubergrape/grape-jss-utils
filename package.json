@@ -1,8 +1,16 @@
 {
   "name": "grape-jss-utils",
+  "private": true,
   "description": "Reusable jss utils",
   "version": "0.1.0",
   "engines": {
     "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.1",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "install": "webpack src/index.js lib/index.js"
   }
 }
