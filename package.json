@@ -13,6 +13,6 @@
     "webpack": "^1.5.3"
   },
   "scripts": {
-    "postinstall": "webpack src/index.js lib/index.js"
+    "build": "webpack src/index.js lib/index.js"
   }
 }
